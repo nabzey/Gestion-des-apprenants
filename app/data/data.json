@@ -1,0 +1,355 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Admin",
+            "email": "admin@odc.sn",
+            "password": "admin123",
+            "profile": "Admin"
+        }
+    ],
+    "promotions": [
+        {
+            "id": 1,
+            "name": "Promo 1 Dev Web",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2024-01-01",
+            "date_fin": "2024-12-31",
+            "referentiels": [
+                "68055a4959120",
+                "680559b417dab",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "8",
+                "68109af851bd2",
+                "7"
+            ],
+            "apprenants": [
+                {
+                    "id": 1,
+                    "name": "John Doe"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Smith"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Promo 1 Data",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2024-02-01",
+            "date_fin": "2024-12-31",
+            "referentiels": [
+                2
+            ],
+            "apprenants": [
+                {
+                    "id": 3,
+                    "name": "Alice Johnson"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Promo 1 Reference Digital",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2024-03-01",
+            "date_fin": "2025-02-28",
+            "apprenants": [
+                {
+                    "id": 6,
+                    "name": "David Lee"
+                },
+                {
+                    "id": 7,
+                    "name": "Emma Davis"
+                },
+                {
+                    "id": 8,
+                    "name": "Frank Miller"
+                }
+            ],
+            "referentiels": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Promo 1 DevOps",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2023-11-01",
+            "date_fin": "2024-10-31",
+            "apprenants": []
+        },
+        {
+            "id": 5,
+            "name": "Promo 2 DEV(web-mobile)",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2024-02-01",
+            "date_fin": "2025-01-31",
+            "apprenants": [
+                {
+                    "id": 9,
+                    "name": "Grace Wilson"
+                },
+                {
+                    "id": 10,
+                    "name": "Henry Ford"
+                }
+            ],
+            "referentiels": [
+                "68055a7e7d4e3",
+                "1"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Promo 2 AWS",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2024-02-01",
+            "date_fin": "2025-01-31",
+            "apprenants": [
+                {
+                    "id": 9,
+                    "name": "Grace Wilson"
+                },
+                {
+                    "id": 10,
+                    "name": "Henry Ford"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Promo 2 HAKEUSE",
+            "status": "inactive",
+            "image": "im1.png",
+            "date_debut": "2024-02-01",
+            "date_fin": "2025-01-31",
+            "apprenants": [
+                {
+                    "id": 9,
+                    "name": "Grace Wilson"
+                },
+                {
+                    "id": 10,
+                    "name": "Henry Ford"
+                }
+            ]
+        },
+        {
+            "name": "promotion 2025",
+            "date_debut": "2025-04-20",
+            "date_fin": "2025-05-02",
+            "image": "im1.png",
+            "status": "inactive",
+            "apprenants": [],
+            "id": 6
+        },
+        {
+            "name": "promotion 2025",
+            "date_debut": "2025-04-20",
+            "date_fin": "2025-04-22",
+            "image": "im1.png",
+            "status": "active",
+            "apprenants": [],
+            "id": 7,
+            "referentiels": [
+                "68055a7e7d4e3",
+                "68055b45eb279",
+                "4",
+                "7",
+                "",
+                "6",
+                "2",
+                "68109af851bd2"
+            ]
+        },
+        {
+            "name": "Promotion 2023",
+            "date_debut": "02\/02\/2023",
+            "date_fin": "01\/02\/2024",
+            "image": "uploads\/680912cadc5cc.png",
+            "status": "inactive",
+            "id": 8
+        },
+        {
+            "name": "Promotion 2023",
+            "date_debut": "02\/02\/2023",
+            "date_fin": "01\/02\/2024",
+            "image": "uploads\/680912dbc04d7.png",
+            "status": "inactive",
+            "id": 9
+        },
+        {
+            "name": "promotion 2017",
+            "date_debut": "01\/02\/2017",
+            "date_fin": "30\/11\/2017",
+            "image": "uploads\/680f3c15e624b.png",
+            "filters": [],
+            "status": "inactive",
+            "id": 10
+        }
+    ],
+    "referentiels": [
+        {
+            "id": 1,
+            "name": "R\u00e9f\u00e9rentiel DevOps",
+            "description": "Administration syst\u00e8me et d\u00e9ploiement",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im3.png",
+            "modules": []
+        },
+        {
+            "id": 2,
+            "name": "R\u00e9f\u00e9rentiel Mobile",
+            "description": "D\u00e9veloppement d'applications mobiles",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im4.png",
+            "modules": []
+        },
+        {
+            "id": 3,
+            "name": "R\u00e9f\u00e9rentiel DevOps",
+            "description": "Administration syst\u00e8me et d\u00e9ploiement",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im1.png",
+            "modules": []
+        },
+        {
+            "id": 4,
+            "name": "R\u00e9f\u00e9rentiel Mobile",
+            "description": "D\u00e9veloppement d'applications mobiles",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im2.png",
+            "modules": []
+        },
+        {
+            "id": 5,
+            "name": "R\u00e9f\u00e9rentiel DevOps",
+            "description": "Administration syst\u00e8me et d\u00e9ploiement",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im3.png",
+            "modules": []
+        },
+        {
+            "id": 6,
+            "name": "R\u00e9f\u00e9rentiel Mobile",
+            "description": "D\u00e9veloppement d'applications mobiles",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im4.png",
+            "modules": []
+        },
+        {
+            "id": 7,
+            "name": "R\u00e9f\u00e9rentiel DevOps",
+            "description": "Administration syst\u00e8me et d\u00e9ploiement",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im1.png",
+            "modules": []
+        },
+        {
+            "id": 8,
+            "name": "R\u00e9f\u00e9rentiel Mobile",
+            "description": "D\u00e9veloppement d'applications mobiles",
+            "status": "active",
+            "image": "assets\/images\/referentiels\/im2.png",
+            "modules": []
+        },
+        {
+            "id": "68109af851bd2",
+            "name": "Referentiel aws",
+            "description": "aws",
+            "capacite": 1,
+            "sessions": 1,
+            "image": "assets\/images\/referentiels\/68109af851b0e.png",
+            "modules": []
+        }
+    ],
+    "apprenants": [
+        {
+            "id": 1,
+            "photo": "assets\/images\/uploads\/apprenant\/photo.png",
+            "matricule": "1058215",
+            "nom_complet": "Seydina Mouhammand Diop",
+            "adresse": "Sicap Libert\u00e9 6 villa 6059 Dakar, S\u00e9n\u00e9gal",
+            "telephone": "785993546",
+            "referentiel": "hakeuse",
+            "statut": "Actif"
+        },
+        {
+            "id": 2,
+            "photo": "assets\/images\/uploads\/apprenant\/photo.png",
+            "matricule": "1058216",
+            "nom_complet": "Mamadou Gueye",
+            "adresse": "Keur Mbaye Fall Dakar, S\u00e9n\u00e9gal",
+            "telephone": "783116655",
+            "referentiel": "Rerence digital",
+            "statut": "Actif"
+        },
+        {
+            "id": 3,
+            "photo": "assets\/images\/uploads\/apprenant\/photo.png",
+            "matricule": "1058217",
+            "nom_complet": "Ndiga Lo",
+            "adresse": "Sicap Derkl\u00e9 Dakar, S\u00e9n\u00e9gal",
+            "telephone": "784559330",
+            "referentiel": "Dev web\/mobile",
+            "statut": "Actif"
+        },
+        {
+            "id": 4,
+            "photo": "assets\/images\/uploads\/apprenant\/photo.png",
+            "matricule": "1058218",
+            "nom_complet": "Seydina Mouhammand Diop",
+            "adresse": "Sicap Libert\u00e9 6 villa 6059 Dakar, S\u00e9n\u00e9gal",
+            "telephone": "785993546",
+            "referentiel": "aws",
+            "statut": "Actif"
+        },
+        {
+            "id": 5,
+            "photo": "assets\/images\/uploads\/apprenant\/photo.png",
+            "matricule": "1058219",
+            "nom_complet": "Seydina Mouhammand Diop",
+            "adresse": "Sicap Libert\u00e9 6 villa 6059 Dakar, S\u00e9n\u00e9gal",
+            "telephone": "785993546",
+            "referentiel": "Dev data",
+            "statut": "Remplac\u00e9"
+        },
+        {
+            "id": 7,
+            "photo": "assets\/images\/uploads\/apprenant\/photo.png",
+            "matricule": "68121c27eec37",
+            "nom_complet": "adma soumare",
+            "adresse": "dakar",
+            "telephone": "768891232",
+            "date_naissance": "1999-12-12",
+            "lieu_naissance": "kebemer",
+            "email": "kebemer@gmail.com",
+            "referentiel": "REF DIG",
+            "tuteur": {
+                "nom": "astou",
+                "prenom": "seye",
+                "telephone": "76543456",
+                "adresse": "dakar"
+            },
+            "statut": "Actif",
+            "prenom": "ADAMA",
+            "nom": "Soumare"
+        }
+    ]
+}

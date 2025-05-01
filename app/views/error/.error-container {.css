@@ -1,0 +1,29 @@
+.error-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.error-code {
+    font-size: 72px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.error-description {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.error-link {
+    display: inline-block;
+    background-color: #0E8F7E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
