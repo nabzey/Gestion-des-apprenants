@@ -35,7 +35,7 @@
                     </div>
                     <div class="contact-item">
                         <span>✉️</span>
-                        <span>mouhaleeq7@gmail.com</span>
+                        <span>mouhaleeq7@gmail.com </span>
                     </div>
                     <div class="contact-item">
                         <span>🏠</span>
